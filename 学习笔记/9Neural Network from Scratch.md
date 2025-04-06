@@ -7,7 +7,7 @@ X = torch.tensor(([2, 9], [1, 5], [3, 6]), dtype=torch.float) # 3 X 2 tensor
 y = torch.tensor(([92], [100], [89]), dtype=torch.float) # 3 X 1 tensor
   #创建一个 3x1 的张量 y，表示目标值（标签）。每个值对应 X 中相应样本的目标输出。数据类型为 torch.float。
 xPredicted = torch.tensor(([4, 8]), dtype=torch.float) # 1 X 2 tensor
-  #创建一个 1x2 的张量 xPredicted，表示一个待预测的样本。数据类型为 torch.float。
+  #创建一个 1x2 的张量 xPredicted，表示一个待预测的样本。数据类型为 torch.float。 a
 
 
 print(X.size())

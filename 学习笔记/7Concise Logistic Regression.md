@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 %matplotlib inline
 
-# use gpu if available
+# use gpu if available a
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 ```
 

@@ -18,7 +18,7 @@ from keras.preprocessing.text import Tokenizer
 ```py
 dataset = fetch_20newsgroups(subset='all')
 
-X = pd.Series(dataset['data'])  #原始文本数据,X是一个Series，其中每一行是一个新闻组的文本内容
+X = pd.Series(dataset['data'])  #原始文本数据,X是一个Series，其中每一行是一个新闻组的文本内容 a
 y = pd.Series(dataset['target']) #原始标签
 X_train, X_valid, y_train, y_valid = train_test_split(X, y, test_size=0.1, stratify=y, random_state=19)  #将数据划分为训练集和验证集。
 y_train = pd.get_dummies(y_train)

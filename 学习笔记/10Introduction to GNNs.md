@@ -7,7 +7,7 @@
 
 !pip install torch-scatter -f https://data.pyg.org/whl/torch-1.10.0+cu111.html #torch-scatter：一个用于处理图数据的 PyTorch 扩展库，通常用于图神经网络（GNN）。
 
-!pip install torch-geometric #安装 torch-geometric 库
+!pip install torch-geometric #安装 torch-geometric 库 a
 ```
 
 
